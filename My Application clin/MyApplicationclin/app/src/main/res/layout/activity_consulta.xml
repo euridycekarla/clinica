@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7D866B"
+    tools:context=".Consulta">
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="183dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#071010"
+        android:text="Marcar consulta"
+        android:onClick="marca_consulta"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.907" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="164dp"
+        android:text="Não sou um robô"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText28"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/editTextText28"
+        android:layout_width="224dp"
+        android:layout_height="30dp"
+        android:background="#A1AA92"
+        android:backgroundTint="#A1AA92"
+        android:ems="10"
+        android:hint="  Telefone"
+        android:inputType="text"
+        android:singleLine="false"
+        android:text="  Telefone"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.663" />
+
+    <EditText
+        android:id="@+id/editTextText27"
+        android:layout_width="224dp"
+        android:layout_height="30dp"
+        android:background="#A1AA92"
+        android:backgroundTint="#A1AA92"
+        android:ems="10"
+        android:hint="  Data"
+        android:inputType="text"
+        android:singleLine="false"
+        android:text="  Data"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.574" />
+
+    <EditText
+        android:id="@+id/editTextText25"
+        android:layout_width="224dp"
+        android:layout_height="30dp"
+        android:background="#A1AA92"
+        android:backgroundTint="#A1AA92"
+        android:ems="10"
+        android:hint="  Convênio"
+        android:inputType="text"
+        android:singleLine="false"
+        android:text="  Convênio"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.39" />
+
+    <EditText
+        android:id="@+id/editTextText8"
+        android:layout_width="224dp"
+        android:layout_height="30dp"
+        android:background="#A1AA92"
+        android:backgroundTint="#A1AA92"
+        android:ems="10"
+        android:hint="  CPF"
+        android:inputType="text"
+        android:singleLine="false"
+        android:text="  CPF"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.318" />
+
+    <EditText
+        android:id="@+id/editTextText24"
+        android:layout_width="224dp"
+        android:layout_height="30dp"
+        android:background="#A1AA92"
+        android:backgroundTint="#A1AA92"
+        android:ems="10"
+        android:hint="  Convênio"
+        android:inputType="text"
+        android:singleLine="false"
+        android:text="  Convênio"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.39" />
+
+    <EditText
+        android:id="@+id/editTextText26"
+        android:layout_width="224dp"
+        android:layout_height="30dp"
+        android:background="#A1AA92"
+        android:backgroundTint="#A1AA92"
+        android:ems="10"
+        android:hint=" Especialidade"
+        android:inputType="text"
+        android:singleLine="false"
+        android:text="  Especialidade"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.48" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="461dp"
+        android:layout_height="122dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042"
+        app:srcCompat="@drawable/_56014168227117_6436ca8ededc7"
+        tools:layout_editor_absoluteX="-25dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
